@@ -1,0 +1,53 @@
+body {
+    background-image:url("http://i.stack.imgur.com/vhoa0.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+}
+
+h1 {
+	font-size: 30px;
+  font-family: ALGERIAN, serif;
+  color: white;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: Times New Roman;   
+}
+
+
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+p {
+  font-size: 30px;
+  padding: px;
+}
+
+#footer{
+  font-size: 1.25rem;
+}
+
+div {
+    border-radius: 5px;
+    float: center;
+}
+
+#header{
+	 height: 50px;
+    width: 200px;
+    background-color: black;
+    float: center;
+    padding:0px ;
+}
+
+h3{
+   font-family: Times New Roman;
+   font-size: 20px;
+   color: white;
+   padding: 8px;
+}
