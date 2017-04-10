@@ -1,0 +1,40 @@
+body {
+    background-image:url("https://s-media-cache-ak0.pinimg.com/564x/5b/af/ec/5bafec65a23571be0554473e6596a78d.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+}
+
+h1 {
+	font-size:40px;
+    font-family: ALGERIAN, serif;
+    color: white;
+    padding: 80px;
+}
+
+p {
+	font-family: Times New Roman;
+	color: white;
+    font-size: 27px;
+}
+
+div {
+    border-radius: 5px;
+    float: center;
+}
+
+#header{
+	 height: 50px;
+    width: 300px;
+    background-color: aqua;
+    float: center;
+    padding:7px ;
+}
+
+h3{
+	color: white;
+	font-family: georgia;
+}
+
+a {
+    color: white;
+}
