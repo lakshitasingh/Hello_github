@@ -15,6 +15,9 @@ p {
 	font-family: Times New Roman;
 	color: white;
     font-size: 27px;
+    padding-top: -40px;
+    padding: -40px;
+    padding-bottom: -50px;
 }
 
 div {
@@ -25,7 +28,7 @@ div {
 #header{
 	 height: 50px;
     width: 300px;
-    background-color: aqua;
+    background-color: teal;
     float: center;
     padding:7px ;
 }
@@ -37,4 +40,55 @@ h3{
 
 a {
     color: white;
+    font-family: Georgia;
+}
+
+.dropbtn {
+    background-color: turquoise;
+    color: black;
+    padding: 16px;
+    font-size: 20px;
+    font-family: Times New Roman;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 1000px; 
+    padding-top: 10px; 
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: white;
+     font-size: 30px;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 9px 9px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: turquoise;
 }
